@@ -9,9 +9,8 @@ Git for All Platforms
 http://git-scm.com
 Git distributions for Linux and POSIX systems are available on
 the official Git SCM web site.
-<br\>
-
-
+  
+  
 
 ### Create Repositories
 When starting out with a new repository, you only need to do it
@@ -26,8 +25,8 @@ $ git clone [url]
 Clone (download) a repository that already exists on
 GitHub, including all of the files, branches, and commits
 ```
-<br\>
-
+  
+  
 
 
 ### Configuration Tooling
@@ -43,17 +42,16 @@ Sets the email you want attached to your commit transactions
 $ git config --global color.ui auto
 Enables helpful colorization of command line output
 ```
-<br\>
-
-
+  
+  
 
 ### The .gitignore file
 Sometimes it may be a good idea to exclude files from being
 tracked with Git. This is typically done in a special file named
  .gitignore . You can find helpful templates for .gitignore
 files at github.com/github/gitignore.
-<br\>
-
+  
+  
 
 
 ### Branches
@@ -77,9 +75,8 @@ but is an important Git operation.
 $ git branch -d [branch-name]
 Deletes the specified branch
 ```
-<br\>
-
-
+  
+  
 
 ### Synchronize changes
 Synchronize your local repository with the remote repository
@@ -100,8 +97,8 @@ Updates your current local working branch with all new
 commits from the corresponding remote branch on GitHub.
  git pull is a combination of git fetch and git merge 
 ```
-<br\>
-
+  
+  
 
 
 ### Make changes
@@ -126,8 +123,8 @@ git add [file]
 git commit -m "[descriptive message]"
 # Records file snapshots permanently in version history
 ```
-<br\>
-
+  
+  
 
 
 ### Redo commits
@@ -145,19 +142,18 @@ need to change commits that exist on GitHub (the remote),
 proceed with caution. If you need help, reach out at
 github.community or contact support.
 ```
-<br\>
-
-
+  
+  
 
 ### Glossary
-git: an open source, distributed version-control system<br\>
-GitHub: a platform for hosting and collaborating on Git repositories<br\>
-commit: a Git object, a snapshot of your entire repository compressed into a SHA<br\>
-branch: a lightweight movable pointer to a commit<br\>
-clone: a local version of a repository, including all commits and branches<br\>
-remote: a common repository on GitHub that all team member use to exchange their changes<br\>
-fork: a copy of a repository on GitHub owned by a different user pull request: a place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more<br\>
-HEAD: representing your current working directory, the HEAD pointer can be moved to different branches, tags, or commits when using git checkout<br\>
+git: an open source, distributed version-control system  
+GitHub: a platform for hosting and collaborating on Git repositories  
+commit: a Git object, a snapshot of your entire repository compressed into a SHA  
+branch: a lightweight movable pointer to a commit  
+clone: a local version of a repository, including all commits and branches  
+remote: a common repository on GitHub that all team member use to exchange their changes  
+fork: a copy of a repository on GitHub owned by a different user pull request: a place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more  
+HEAD: representing your current working directory, the HEAD pointer can be moved to different branches, tags, or commits when using git checkout  
 
 
 
